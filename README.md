@@ -6,12 +6,12 @@ A containerized bakery management system implemented using Docker, featuring a P
 
 The system consists of the following components:
 
-1. **PostgreSQL Database**: Stores product information, orders, and order items.
-2. **Redis Cache**: Provides caching for product listings to improve performance.
-3. **Backend API Service (Python Flask)**: Provides APIs for listing products, placing orders, and checking order status.
-4. **Frontend Web Application (React)**: User interface for customers to browse products, place orders, and check order status.
-5. **RabbitMQ Message Queue**: Facilitates asynchronous processing of orders.
-6. **Worker Service**: Processes orders from the RabbitMQ queue and updates their status.
+1. PostgreSQL Database: Stores product information, orders, and order items.
+2. Redis Cache: Provides caching for product listings to improve performance.
+3. Backend API Service (Python Flask): Provides APIs for listing products, placing orders, and checking order status.
+4. Frontend Web Application (React): User interface for customers to browse products, place orders, and check order status.
+5. RabbitMQ Message Queue: Facilitates asynchronous processing of orders.
+6. Worker Service: Processes orders from the RabbitMQ queue and updates their status.
 
 ### Architecture Diagram
 
@@ -47,7 +47,7 @@ The system consists of the following components:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/bakery-management-system.git
+   git clone https://github.com/Aarsh-s-Lal/bakery-management-system.git
    cd bakery-management-system
    ```
 
